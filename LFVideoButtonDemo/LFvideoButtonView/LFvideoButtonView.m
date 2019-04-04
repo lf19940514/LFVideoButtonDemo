@@ -35,6 +35,14 @@
 
 @implementation LFvideoButtonView
 
+- (instancetype)initWithOriginY:(CGFloat)originY{
+    self = [super initWithFrame:CGRectMake(0, originY, kScreenWidth, 140)];
+    if (self) {
+        [self createUI];
+    }
+    return self;
+}
+
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:CGRectMake(0, frame.origin.y, kScreenWidth, 140)];
     if (self) {

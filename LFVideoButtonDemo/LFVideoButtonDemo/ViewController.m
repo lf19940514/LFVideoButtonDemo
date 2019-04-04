@@ -22,7 +22,8 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor lightGrayColor];
     
-    self.videoView = [[LFvideoButtonView alloc] initWithFrame:CGRectMake(0, 300, 0, 0)];
+    self.videoView = [[LFvideoButtonView alloc] initWithOriginY:100];
+    self.videoView.center = self.view.center;
     self.videoView.delegate = self;
     [self.view addSubview:self.videoView];
 }

@@ -33,5 +33,6 @@
 
 @property (nonatomic ,weak)id <LFvideoButtonDelegate>delegate;
 
+- (instancetype)initWithOriginY:(CGFloat)originY;
 
 @end

@@ -157,8 +157,8 @@
 		FA251A9F2255EB57003EF68A /* LFvideoButtonView */ = {
 			isa = PBXGroup;
 			children = (
-				FA251AA02255EB57003EF68A /* LFvideoButtonView.h */,
 				FA251AA12255EB57003EF68A /* Images */,
+				FA251AA02255EB57003EF68A /* LFvideoButtonView.h */,
 				FA251AAB2255EB57003EF68A /* LFvideoButtonView.m */,
 			);
 			path = LFvideoButtonView;
